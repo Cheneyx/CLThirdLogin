@@ -1,0 +1,15 @@
+CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = NO
+CONFIGURATION_BUILD_DIR = ${PODS_CONFIGURATION_BUILD_DIR}/CLThirdLogin
+FRAMEWORK_SEARCH_PATHS = $(inherited) "${PODS_CONFIGURATION_BUILD_DIR}/SnapKit" "${PODS_ROOT}/UMCommon/UMCommon_7.3.8" "${PODS_ROOT}/UMDevice/UMDevice_2.2.1" "${PODS_ROOT}/UMShare/UMShare" "${PODS_ROOT}/UMShare/UMShare/SocialLibraries/DingDing" "${PODS_ROOT}/UMShare/UMShare/SocialLibraries/DouYin" "${PODS_ROOT}/UMShare/UMShare/SocialLibraries/Facebook" "${PODS_ROOT}/UMShare/UMShare/SocialLibraries/Kakao" "${PODS_ROOT}/UMShare/UMShare/SocialLibraries/Linkedin" "${PODS_ROOT}/UMShare/UMShare/SocialLibraries/QQ/QQSDK" "${PODS_ROOT}/UMShare/UMShare/SocialLibraries/Twitter" "${PODS_ROOT}/UMShare/UMShare/UMSocialUI"
+GCC_PREPROCESSOR_DEFINITIONS = $(inherited) COCOAPODS=1
+HEADER_SEARCH_PATHS = $(inherited) "${PODS_ROOT}/Headers/Public"
+OTHER_SWIFT_FLAGS = $(inherited) -D COCOAPODS
+PODS_BUILD_DIR = ${BUILD_DIR}
+PODS_CONFIGURATION_BUILD_DIR = ${PODS_BUILD_DIR}/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)
+PODS_ROOT = ${SRCROOT}
+PODS_TARGET_SRCROOT = ${PODS_ROOT}/../..
+PODS_XCFRAMEWORKS_BUILD_DIR = $(PODS_CONFIGURATION_BUILD_DIR)/XCFrameworkIntermediates
+PRODUCT_BUNDLE_IDENTIFIER = org.cocoapods.${PRODUCT_NAME:rfc1034identifier}
+SKIP_INSTALL = YES
+SWIFT_INCLUDE_PATHS = $(inherited) "${PODS_ROOT}/UMShare/UMShare/SocialLibraries/AlipayShare" "${PODS_ROOT}/UMShare/UMShare/SocialLibraries/DingDing" "${PODS_ROOT}/UMShare/UMShare/SocialLibraries/DouYin" "${PODS_ROOT}/UMShare/UMShare/SocialLibraries/DropBox" "${PODS_ROOT}/UMShare/UMShare/SocialLibraries/Email" "${PODS_ROOT}/UMShare/UMShare/SocialLibraries/EverNote" "${PODS_ROOT}/UMShare/UMShare/SocialLibraries/Facebook" "${PODS_ROOT}/UMShare/UMShare/SocialLibraries/Flickr" "${PODS_ROOT}/UMShare/UMShare/SocialLibraries/Instagram" "${PODS_ROOT}/UMShare/UMShare/SocialLibraries/Kakao" "${PODS_ROOT}/UMShare/UMShare/SocialLibraries/Line" "${PODS_ROOT}/UMShare/UMShare/SocialLibraries/Linkedin" "${PODS_ROOT}/UMShare/UMShare/SocialLibraries/Pinterest" "${PODS_ROOT}/UMShare/UMShare/SocialLibraries/Pocket" "${PODS_ROOT}/UMShare/UMShare/SocialLibraries/QQ" "${PODS_ROOT}/UMShare/UMShare/SocialLibraries/SMS" "${PODS_ROOT}/UMShare/UMShare/SocialLibraries/Sina" "${PODS_ROOT}/UMShare/UMShare/SocialLibraries/Sina/SinaSDK" "${PODS_ROOT}/UMShare/UMShare/SocialLibraries/Tumblr" "${PODS_ROOT}/UMShare/UMShare/SocialLibraries/Twitter" "${PODS_ROOT}/UMShare/UMShare/SocialLibraries/VKontakte" "${PODS_ROOT}/UMShare/UMShare/SocialLibraries/WeChat" "${PODS_ROOT}/UMShare/UMShare/SocialLibraries/WeChat/WechatSDK" "${PODS_ROOT}/UMShare/UMShare/SocialLibraries/WeChatWork" "${PODS_ROOT}/UMShare/UMShare/SocialLibraries/WhatsApp" "${PODS_ROOT}/UMShare/UMShare/SocialLibraries/YiXin" "${PODS_ROOT}/UMShare/UMShare/SocialLibraries/YouDao"
+USE_RECURSIVE_SCRIPT_INPUTS_IN_SCRIPT_PHASES = YES

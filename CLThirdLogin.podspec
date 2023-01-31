@@ -27,16 +27,18 @@ TODO: Add long description of the pod here.
   s.author           = { 'CheneyDeveloper' => 'chenxingxing_186@163.com' }
   s.source           = { :git => 'https://github.com/CheneyDeveloper/CLThirdLogin.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
+s.public_header_files = 'CLThirdLogin/Classes/Publish_header.h'
+  s.ios.deployment_target = '11.0'
 
-  s.ios.deployment_target = '10.0'
-
-  s.source_files = 'CLThirdLogin/Classes/**/*'
+  s.source_files = 'CLThirdLogin/Classes/*'
   
-  # s.resource_bundles = {
-  #   'CLThirdLogin' => ['CLThirdLogin/Assets/*.png']
-  # }
+   s.resource_bundles = {
+     'CLThirdLogin' => ['CLThirdLogin/Assets/*.png']
+   }
 
   # s.public_header_files = 'Pod/Classes/**/*.h'
   # s.frameworks = 'UIKit', 'MapKit'
-  # s.dependency 'AFNetworking', '~> 2.3'
+  s.static_framework = true
+   s.dependency 'SnapKit'
+   s.dependency 'UMShare'
 end

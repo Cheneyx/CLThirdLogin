@@ -1,0 +1,165 @@
+PODS:
+  - CLThirdLogin (0.1.0):
+    - SnapKit
+    - UMShare
+  - SnapKit (5.6.0)
+  - UMCommon (7.3.8):
+    - UMDevice
+  - UMDevice (2.2.1)
+  - UMShare (6.10.7):
+    - UMCommon
+    - UMShare/Core (= 6.10.7)
+    - UMShare/Social (= 6.10.7)
+    - UMShare/UI (= 6.10.7)
+  - UMShare/Core (6.10.7):
+    - UMCommon
+  - UMShare/Social (6.10.7):
+    - UMCommon
+    - UMShare/Core
+    - UMShare/Social/AlipayShare (= 6.10.7)
+    - UMShare/Social/DingDing (= 6.10.7)
+    - UMShare/Social/DouYin (= 6.10.7)
+    - UMShare/Social/DropBox (= 6.10.7)
+    - UMShare/Social/Email (= 6.10.7)
+    - UMShare/Social/EverNote (= 6.10.7)
+    - UMShare/Social/Facebook (= 6.10.7)
+    - UMShare/Social/FaceBookMessenger (= 6.10.7)
+    - UMShare/Social/Flickr (= 6.10.7)
+    - UMShare/Social/Instagram (= 6.10.7)
+    - UMShare/Social/Kakao (= 6.10.7)
+    - UMShare/Social/Line (= 6.10.7)
+    - UMShare/Social/Linkedin (= 6.10.7)
+    - UMShare/Social/Pinterest (= 6.10.7)
+    - UMShare/Social/Pocket (= 6.10.7)
+    - UMShare/Social/QQ (= 6.10.7)
+    - UMShare/Social/ReducedQQ (= 6.10.7)
+    - UMShare/Social/ReducedSina (= 6.10.7)
+    - UMShare/Social/ReducedWeChat (= 6.10.7)
+    - UMShare/Social/Sina (= 6.10.7)
+    - UMShare/Social/SMS (= 6.10.7)
+    - UMShare/Social/Tumblr (= 6.10.7)
+    - UMShare/Social/Twitter (= 6.10.7)
+    - UMShare/Social/VKontakte (= 6.10.7)
+    - UMShare/Social/WeChat (= 6.10.7)
+    - UMShare/Social/WeChatWork (= 6.10.7)
+    - UMShare/Social/WhatsApp (= 6.10.7)
+    - UMShare/Social/YiXin (= 6.10.7)
+    - UMShare/Social/YouDao (= 6.10.7)
+  - UMShare/Social/AlipayShare (6.10.7):
+    - UMCommon
+    - UMShare/Core
+  - UMShare/Social/DingDing (6.10.7):
+    - UMCommon
+    - UMShare/Core
+  - UMShare/Social/DouYin (6.10.7):
+    - UMCommon
+    - UMShare/Core
+  - UMShare/Social/DropBox (6.10.7):
+    - UMCommon
+    - UMShare/Core
+  - UMShare/Social/Email (6.10.7):
+    - UMCommon
+    - UMShare/Core
+  - UMShare/Social/EverNote (6.10.7):
+    - UMCommon
+    - UMShare/Core
+  - UMShare/Social/Facebook (6.10.7):
+    - UMCommon
+    - UMShare/Core
+  - UMShare/Social/FaceBookMessenger (6.10.7):
+    - UMCommon
+    - UMShare/Core
+  - UMShare/Social/Flickr (6.10.7):
+    - UMCommon
+    - UMShare/Core
+  - UMShare/Social/Instagram (6.10.7):
+    - UMCommon
+    - UMShare/Core
+  - UMShare/Social/Kakao (6.10.7):
+    - UMCommon
+    - UMShare/Core
+  - UMShare/Social/Line (6.10.7):
+    - UMCommon
+    - UMShare/Core
+  - UMShare/Social/Linkedin (6.10.7):
+    - UMCommon
+    - UMShare/Core
+  - UMShare/Social/Pinterest (6.10.7):
+    - UMCommon
+    - UMShare/Core
+  - UMShare/Social/Pocket (6.10.7):
+    - UMCommon
+    - UMShare/Core
+  - UMShare/Social/QQ (6.10.7):
+    - UMCommon
+    - UMShare/Core
+    - UMShare/Social/ReducedQQ
+  - UMShare/Social/ReducedQQ (6.10.7):
+    - UMCommon
+    - UMShare/Core
+  - UMShare/Social/ReducedSina (6.10.7):
+    - UMCommon
+    - UMShare/Core
+  - UMShare/Social/ReducedWeChat (6.10.7):
+    - UMCommon
+    - UMShare/Core
+  - UMShare/Social/Sina (6.10.7):
+    - UMCommon
+    - UMShare/Core
+    - UMShare/Social/ReducedSina
+  - UMShare/Social/SMS (6.10.7):
+    - UMCommon
+    - UMShare/Core
+  - UMShare/Social/Tumblr (6.10.7):
+    - UMCommon
+    - UMShare/Core
+  - UMShare/Social/Twitter (6.10.7):
+    - UMCommon
+    - UMShare/Core
+  - UMShare/Social/VKontakte (6.10.7):
+    - UMCommon
+    - UMShare/Core
+  - UMShare/Social/WeChat (6.10.7):
+    - UMCommon
+    - UMShare/Core
+    - UMShare/Social/ReducedWeChat
+  - UMShare/Social/WeChatWork (6.10.7):
+    - UMCommon
+    - UMShare/Core
+  - UMShare/Social/WhatsApp (6.10.7):
+    - UMCommon
+    - UMShare/Core
+  - UMShare/Social/YiXin (6.10.7):
+    - UMCommon
+    - UMShare/Core
+  - UMShare/Social/YouDao (6.10.7):
+    - UMCommon
+    - UMShare/Core
+  - UMShare/UI (6.10.7):
+    - UMCommon
+    - UMShare/Core
+
+DEPENDENCIES:
+  - CLThirdLogin (from `../`)
+
+SPEC REPOS:
+  trunk:
+    - SnapKit
+    - UMCommon
+    - UMDevice
+    - UMShare
+
+EXTERNAL SOURCES:
+  CLThirdLogin:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  CLThirdLogin: 0177d0c22e7ae96166765cd3db21a73af6f4861f
+  SnapKit: e01d52ebb8ddbc333eefe2132acf85c8227d9c25
+  UMCommon: fdb5bac9e7ec2aca4f9cfc0febf414b59ed302cb
+  UMDevice: 053478c4b4d7292f31f0a275c227d3c4007a5571
+  UMShare: 8a1030a9793941d1129a82d5bc02cd97df5ae210
+
+PODFILE CHECKSUM: fad8de12c0161eaab0a22da0583815c9ff2bf798
+
+COCOAPODS: 1.11.3

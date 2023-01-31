@@ -1,0 +1,6 @@
+framework module CLThirdLogin {
+  umbrella header "CLThirdLogin-umbrella.h"
+
+  export *
+  module * { export * }
+}
