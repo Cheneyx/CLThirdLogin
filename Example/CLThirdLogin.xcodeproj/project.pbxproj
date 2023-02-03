@@ -27,6 +27,19 @@
 		};
 /* End PBXContainerItemProxy section */
 
+/* Begin PBXCopyFilesBuildPhase section */
+		048203D62989F80F009846BB /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
 /* Begin PBXFileReference section */
 		048203BF2989014F009846BB /* .gitkeep */ = {isa = PBXFileReference; lastKnownFileType = text; path = .gitkeep; sourceTree = "<group>"; };
 		048203C22989014F009846BB /* .gitkeep */ = {isa = PBXFileReference; lastKnownFileType = text; path = .gitkeep; sourceTree = "<group>"; };
@@ -36,6 +49,7 @@
 		048203C6298908D1009846BB /* UIColor+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIColor+Extension.swift"; sourceTree = "<group>"; };
 		048203C729890C4F009846BB /* Publish_header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Publish_header.h; sourceTree = "<group>"; };
 		048203C829890C4F009846BB /* Publish_header.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Publish_header.m; sourceTree = "<group>"; };
+		048203DA298A0F90009846BB /* dfev_login_apple@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "dfev_login_apple@3x.png"; sourceTree = "<group>"; };
 		17C82C1CEFD34A3EFA002107 /* Pods-CLThirdLogin_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CLThirdLogin_Tests.release.xcconfig"; path = "Target Support Files/Pods-CLThirdLogin_Tests/Pods-CLThirdLogin_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		1F739D1BD0837398849D5647 /* Pods-CLThirdLogin_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CLThirdLogin_Example.debug.xcconfig"; path = "Target Support Files/Pods-CLThirdLogin_Example/Pods-CLThirdLogin_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		2A8835B183C41DFF6FD052EC /* CLThirdLogin.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = CLThirdLogin.podspec; path = ../CLThirdLogin.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
@@ -104,6 +118,7 @@
 			isa = PBXGroup;
 			children = (
 				048203C22989014F009846BB /* .gitkeep */,
+				048203DA298A0F90009846BB /* dfev_login_apple@3x.png */,
 				048203C429890670009846BB /* ImageAsset.xcassets */,
 			);
 			path = Assets;
@@ -213,6 +228,7 @@
 				607FACCE1AFB9204008FA782 /* Resources */,
 				0CFF5C8BD72816FD04928C44 /* [CP] Embed Pods Frameworks */,
 				F86C2D5C626A0089154890AC /* [CP] Copy Pods Resources */,
+				048203D62989F80F009846BB /* Embed Frameworks */,
 			);
 			buildRules = (
 			);

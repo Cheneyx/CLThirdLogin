@@ -7,7 +7,13 @@
 //
 
 #import "Publish_header.h"
-
+//#import <TencentOpenAPI/TencentOpenApiUmbrellaHeader.h>
+//#import "WXApi.h"
 @implementation Publish_header
+
++ (void)isCheck {
+//    WXApi.isWXAppInstalled;
+
+}
 
 @end

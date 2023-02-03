@@ -33,7 +33,7 @@ s.public_header_files = 'CLThirdLogin/Classes/Publish_header.h'
   s.source_files = 'CLThirdLogin/Classes/*'
   
    s.resource_bundles = {
-     'CLThirdLogin' => ['CLThirdLogin/Assets/*.png']
+     'CLThirdLogin' => ['CLThirdLogin/Assets/ImageAsset/*.png']
    }
 
   # s.public_header_files = 'Pod/Classes/**/*.h'

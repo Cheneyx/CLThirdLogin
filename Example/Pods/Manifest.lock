@@ -154,7 +154,7 @@ EXTERNAL SOURCES:
     :path: "../"
 
 SPEC CHECKSUMS:
-  CLThirdLogin: 0177d0c22e7ae96166765cd3db21a73af6f4861f
+  CLThirdLogin: c3ba893338a7a9f817444e5d4e02b4519591f7f3
   SnapKit: e01d52ebb8ddbc333eefe2132acf85c8227d9c25
   UMCommon: fdb5bac9e7ec2aca4f9cfc0febf414b59ed302cb
   UMDevice: 053478c4b4d7292f31f0a275c227d3c4007a5571

@@ -30,7 +30,7 @@ public class CLThirdLoginView: UIView {
     
     private var thidTyps: [CLThirdLoginType] = [.Apple()]
     
-    init(Type: [CLThirdLoginType]) {
+    public init(Type: [CLThirdLoginType]) {
         self.init()
         thidTyps = Type
         
@@ -45,7 +45,6 @@ public class CLThirdLoginView: UIView {
     private func setupUI() {
         addSubview(itemView)
         addSubview(topTitle)
-        
         for type in thidTyps {
             let btn = UIButton()
             btn.setImage(type.IconImage, for: .normal)

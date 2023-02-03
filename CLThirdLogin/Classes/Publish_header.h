@@ -15,6 +15,8 @@ NS_ASSUME_NONNULL_BEGIN
 
 @interface Publish_header : NSObject
 
++(void)isCheck;
+
 @end
 
 NS_ASSUME_NONNULL_END
