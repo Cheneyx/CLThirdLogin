@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'CLThirdLogin'
-  s.version          = '0.1.0'
+  s.version          = '0.0.1'
   s.summary          = 'A short description of CLThirdLogin.'
 
 # This description is used to generate tags and improve search results.
@@ -33,7 +33,7 @@ s.public_header_files = 'CLThirdLogin/Classes/Publish_header.h'
   s.source_files = 'CLThirdLogin/Classes/*'
   
    s.resource_bundles = {
-     'CLThirdLogin' => ['CLThirdLogin/Assets/ImageAsset/*.png']
+     'CLThirdLogin' => ['CLThirdLogin/Assets/*']
    }
 
   # s.public_header_files = 'Pod/Classes/**/*.h'
