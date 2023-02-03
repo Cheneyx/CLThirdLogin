@@ -28,17 +28,13 @@ public class CLThirdLoginView: UIView {
     
     var ThitdLoginBlock: ((CLThirdLoginType)->(Void))?
     
-    private var thidTyps: [CLThirdLoginType] = [.Apple()]
+    private let thidTyps: [CLThirdLoginType]
     
     public init(Type: [CLThirdLoginType]) {
-        self.init()
         thidTyps = Type
-        
-        setupUI()
-    }
-    
-    override init(frame: CGRect) {
-        super.init(frame: frame)
+
+        super.init(frame: .zero)
+
         setupUI()
     }
     
@@ -50,9 +46,9 @@ public class CLThirdLoginView: UIView {
             btn.setImage(type.IconImage, for: .normal)
             btn.addTarget(self, action: #selector(thidLoginBtnClick(_ :)), for: .touchUpInside)
             btn.tag = 100 + type.Tags
-            if type == .Apple(), #available(iOS 13, *) {
+//            if type == .Apple(), #available(iOS 13, *) {
                 itemView.addArrangedSubview(btn)
-            }
+//            }
 //            } else if type == .WeChat(), WXApi.isWXAppInstalled(){
 //                itemView.addArrangedSubview(btn)
 //            } else if type == .QQ(), QQApiInterface.isQQInstalled() {

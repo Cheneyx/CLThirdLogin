@@ -130,7 +130,6 @@ extension UIImage {
             else {
                 return nil
             }
-//            let bundle = Bundle(url: url)
             return bund
         }
         
