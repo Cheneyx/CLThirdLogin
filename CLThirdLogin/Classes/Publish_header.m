@@ -7,13 +7,18 @@
 //
 
 #import "Publish_header.h"
-//#import <TencentOpenAPI/TencentOpenApiUmbrellaHeader.h>
-//#import "WXApi.h"
+#import <TencentOpenAPI/TencentOpenApiUmbrellaHeader.h>
+#import "WXApi.h"
 @implementation Publish_header
 
-+ (void)isCheck {
-//    WXApi.isWXAppInstalled;
++ (BOOL)isInstallQQ {
+    return TencentOAuth.iphoneQQInstalled;
+    return  YES;
+}
 
++ (BOOL)isInstallWeChat {
+    return  WXApi.isWXAppInstalled;
+    return  YES;
 }
 
 @end

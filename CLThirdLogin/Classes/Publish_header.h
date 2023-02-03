@@ -8,14 +8,14 @@
 
 #import <Foundation/Foundation.h>
 
-//#import <TencentOpenAPI/TencentOpenApiUmbrellaHeader.h>
-//#import "WXApi.h"
-
 NS_ASSUME_NONNULL_BEGIN
 
 @interface Publish_header : NSObject
 
-+(void)isCheck;
++(BOOL)isInstallQQ;
+
++(BOOL)isInstallWeChat;
+
 
 @end
 

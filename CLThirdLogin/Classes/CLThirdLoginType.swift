@@ -9,21 +9,21 @@
 import Foundation
 
 public enum CLThirdLoginType {
-    case Apple(icon: UIImage? = nil)
-    case QQ(icon: UIImage? = nil)
-    case WeChat(icon: UIImage? = nil)
+    case apple(icon: UIImage? = nil)
+    case qq(icon: UIImage? = nil)
+    case wechat(icon: UIImage? = nil)
 }
 
 extension CLThirdLoginType: Equatable{
     var IconImage: UIImage? {
         switch self {
-        case .Apple(let icon):
+        case .apple(let icon):
             guard let image = icon else { return UIImage(inResource: "cl_login_apple") }
             return image
-        case .QQ(let icon):
+        case .qq(let icon):
             guard let image = icon else { return UIImage(inResource: "cl_login_qq") }
             return image
-        case .WeChat(let icon):
+        case .wechat(let icon):
             guard let image = icon else { return UIImage(inResource: "cl_login_wx") }
             return image
         }
@@ -31,11 +31,11 @@ extension CLThirdLoginType: Equatable{
     
     var Tags: Int {
         switch self {
-        case .Apple:
+        case .apple:
             return 100
-        case .QQ:
+        case .qq:
             return 101
-        case .WeChat:
+        case .wechat:
             return 102
         }
     }

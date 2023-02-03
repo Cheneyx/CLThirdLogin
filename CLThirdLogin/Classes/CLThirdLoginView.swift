@@ -46,14 +46,13 @@ public class CLThirdLoginView: UIView {
             btn.setImage(type.IconImage, for: .normal)
             btn.addTarget(self, action: #selector(thidLoginBtnClick(_ :)), for: .touchUpInside)
             btn.tag = 100 + type.Tags
-//            if type == .Apple(), #available(iOS 13, *) {
+            if type == .apple(), #available(iOS 13, *) {
                 itemView.addArrangedSubview(btn)
-//            }
-//            } else if type == .WeChat(), WXApi.isWXAppInstalled(){
-//                itemView.addArrangedSubview(btn)
-//            } else if type == .QQ(), QQApiInterface.isQQInstalled() {
-//                itemView.addArrangedSubview(btn)
-//            }
+            } else if type == .wechat(), Publish_header.isInstallWeChat(){
+                itemView.addArrangedSubview(btn)
+            } else if type == .qq(), Publish_header.isInstallQQ() {
+                itemView.addArrangedSubview(btn)
+            }
         }
 
         self.isHidden = itemView.subviews.count == 0
@@ -83,11 +82,11 @@ extension CLThirdLoginView {
     @objc func thidLoginBtnClick(_ btn: UIButton) {
         switch btn.tag - 100 {
         case 100:
-            self.ThitdLoginBlock?(.Apple())
+            self.ThitdLoginBlock?(.apple())
         case 101:
-            self.ThitdLoginBlock?(.QQ())
+            self.ThitdLoginBlock?(.qq())
         case 102:
-            self.ThitdLoginBlock?(.WeChat())
+            self.ThitdLoginBlock?(.wechat())
         default:
             break
         }
