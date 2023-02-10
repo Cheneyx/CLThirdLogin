@@ -10,6 +10,8 @@ import UIKit
 import SnapKit
 
 public class CLThirdLoginView: UIView {
+    private let viewModel = AppleLoginViewModel()
+    
     private lazy var itemView: UIStackView = {
         let stack = UIStackView()
         stack.alignment = .center
@@ -21,7 +23,7 @@ public class CLThirdLoginView: UIView {
     private lazy var topTitle: UILabel = {
         let lab = UILabel()
         lab.text = "其他登录方式"
-        lab.textColor = UIColor.cssHex("#999999")
+//        lab.textColor = UIColor.cssHex("#999999")
         lab.font = UIFont.systemFont(ofSize: 14, weight: .regular)
         return lab
     }()
@@ -30,12 +32,17 @@ public class CLThirdLoginView: UIView {
     
     private let thidTyps: [CLThirdLoginType]
     
+    var appleLoginComplete: ((AppleUserInfo) -> ())?
+    
     public init(Type: [CLThirdLoginType]) {
         thidTyps = Type
 
         super.init(frame: .zero)
-
         setupUI()
+        
+        viewModel.appleLoginSuccess = {[weak self] user in
+            self?.appleLoginComplete?(user)
+        }
     }
     
     private func setupUI() {
@@ -82,11 +89,11 @@ extension CLThirdLoginView {
     @objc func thidLoginBtnClick(_ btn: UIButton) {
         switch btn.tag - 100 {
         case 100:
-            self.ThitdLoginBlock?(.apple())
+            viewModel.appleLogin()
         case 101:
-            self.ThitdLoginBlock?(.qq())
+            Publish_header.qqLogin()
         case 102:
-            self.ThitdLoginBlock?(.wechat())
+            Publish_header.weChatLogin()
         default:
             break
         }

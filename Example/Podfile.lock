@@ -1,5 +1,5 @@
 PODS:
-  - CLThirdLogin (0.1.0):
+  - CLThirdLogin (0.0.2):
     - SnapKit
     - UMShare
   - SnapKit (5.6.0)
@@ -154,7 +154,7 @@ EXTERNAL SOURCES:
     :path: "../"
 
 SPEC CHECKSUMS:
-  CLThirdLogin: c3ba893338a7a9f817444e5d4e02b4519591f7f3
+  CLThirdLogin: e442a93e4be076ae0d553e0ca29962b6a45eeae5
   SnapKit: e01d52ebb8ddbc333eefe2132acf85c8227d9c25
   UMCommon: fdb5bac9e7ec2aca4f9cfc0febf414b59ed302cb
   UMDevice: 053478c4b4d7292f31f0a275c227d3c4007a5571

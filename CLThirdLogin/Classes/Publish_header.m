@@ -21,4 +21,17 @@
     return  YES;
 }
 
++ (void)WeChatLogin {
+    SendAuthReq *req = [[SendAuthReq alloc]  init];
+    req.scope = @"snsapi_userinfo";
+    req.state = @"wx_oauth_authorization_state";
+    [WXApi sendReq:req completion:^(BOOL success) {
+        NSLog(@"发送微信登录---->>>>%@", success ? @"成功" : @"失败");
+    }];
+}
+
++ (void)QQLogin {
+    
+}
+
 @end

@@ -40,3 +40,19 @@ extension CLThirdLoginType: Equatable{
         }
     }
 }
+
+extension UIImage {
+    convenience init?(inResource named: String) {
+        func staticBundle() -> Bundle? {
+            let bundle = Bundle(for: CLThirdLoginView.self)
+            guard let path = bundle.path(forResource: "CLThirdLogin", ofType: "bundle"),
+                  let bund = Bundle(path: path)
+            else {
+                return nil
+            }
+            return bund
+        }
+        
+        self.init(named: named, in: staticBundle(), compatibleWith: nil)
+    }
+}

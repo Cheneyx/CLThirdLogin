@@ -1,6 +1,6 @@
 {
   "name": "CLThirdLogin",
-  "version": "0.1.0",
+  "version": "0.0.2",
   "summary": "A short description of CLThirdLogin.",
   "description": "TODO: Add long description of the pod here.",
   "homepage": "https://github.com/Cheneyx/CLThirdLogin",
@@ -13,7 +13,7 @@
   },
   "source": {
     "git": "https://github.com/Cheneyx/CLThirdLogin.git",
-    "tag": "0.1.0"
+    "tag": "0.0.2"
   },
   "public_header_files": "CLThirdLogin/Classes/Publish_header.h",
   "platforms": {
@@ -22,7 +22,7 @@
   "source_files": "CLThirdLogin/Classes/*",
   "resource_bundles": {
     "CLThirdLogin": [
-      "CLThirdLogin/Assets/ImageAsset/*.png"
+      "CLThirdLogin/Assets/*"
     ]
   },
   "swift_versions": "4.0",

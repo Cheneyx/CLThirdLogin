@@ -44,4 +44,5 @@ s.public_header_files = 'CLThirdLogin/Classes/Publish_header.h'
   s.static_framework = true
    s.dependency 'SnapKit'
    s.dependency 'UMShare'
+#   s.dependency 'SuperExtension'
 end
