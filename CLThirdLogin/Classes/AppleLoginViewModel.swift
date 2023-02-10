@@ -7,11 +7,11 @@
 //
 
 import AuthenticationServices
-public class AppleLoginViewModel: NSObject {
+class AppleLoginViewModel: NSObject {
     
     var appleLoginSuccess: ((AppleUserInfo) -> ())?
     
-    public func appleLogin() {
+    func appleLogin() {
         if #available(iOS 13, *) {
             let appleIDProvider = ASAuthorizationAppleIDProvider()
             let request = appleIDProvider.createRequest()
@@ -29,12 +29,12 @@ public class AppleLoginViewModel: NSObject {
 /// Apple登录代理
 extension AppleLoginViewModel: ASAuthorizationControllerDelegate, ASAuthorizationControllerPresentationContextProviding {
     @available(iOS 13.0, *)
-    public func presentationAnchor(for controller: ASAuthorizationController) -> ASPresentationAnchor {
+    func presentationAnchor(for controller: ASAuthorizationController) -> ASPresentationAnchor {
         return UIApplication.shared.windows.last ?? UIWindow()
     }
     
     @available(iOS 13.0, *)
-    public func authorizationController(controller: ASAuthorizationController, didCompleteWithAuthorization authorization: ASAuthorization) {
+    func authorizationController(controller: ASAuthorizationController, didCompleteWithAuthorization authorization: ASAuthorization) {
         switch authorization.credential {
         case let appleIDCredential as ASAuthorizationAppleIDCredential:
             let userIdentifier = appleIDCredential.user
@@ -57,7 +57,7 @@ extension AppleLoginViewModel: ASAuthorizationControllerDelegate, ASAuthorizatio
     }
     
     @available(iOS 13.0, *)
-    public func authorizationController(controller: ASAuthorizationController, didCompleteWithError error: Error) {
+    func authorizationController(controller: ASAuthorizationController, didCompleteWithError error: Error) {
         var errorStr = "登录异常"
         switch error {
         case ASAuthorizationError.canceled:
