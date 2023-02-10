@@ -16,7 +16,6 @@
 				1049A6BCB5B7D0379A609B6DD6D14C20 /* PBXTargetDependency */,
 			);
 			name = UMCommon;
-			productName = UMCommon;
 		};
 		76CE6FDA7554B437965BADCED6281CAB /* UMShare */ = {
 			isa = PBXAggregateTarget;
@@ -27,7 +26,6 @@
 				7308AD806137F08C2B31D4B4869E50C2 /* PBXTargetDependency */,
 			);
 			name = UMShare;
-			productName = UMShare;
 		};
 		CEB9AD2C3CFC208BFBE1F22F5EC3E1FC /* UMDevice */ = {
 			isa = PBXAggregateTarget;
@@ -37,7 +35,6 @@
 			dependencies = (
 			);
 			name = UMDevice;
-			productName = UMDevice;
 		};
 /* End PBXAggregateTarget section */
 
@@ -273,7 +270,7 @@
 		63BF4EF4ADDC0F40E9A548574588E367 /* ImageAsset.xcassets */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = folder.assetcatalog; name = ImageAsset.xcassets; path = CLThirdLogin/Assets/ImageAsset.xcassets; sourceTree = "<group>"; };
 		674EB8F30CFBCC1DDD19AB61C864E7EE /* UMSocialPocketHandler.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = UMSocialPocketHandler.h; path = UMShare/SocialLibraries/Pocket/UMSocialPocketHandler.h; sourceTree = "<group>"; };
 		67E6732BDBADEA1A2AC4D0EA802E201D /* VKImageParameters.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = VKImageParameters.h; path = UMShare/SocialLibraries/VKontakte/VKImageParameters.h; sourceTree = "<group>"; };
-		67FF4A3EAD52791DCF9C2042413D1402 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		67FF4A3EAD52791DCF9C2042413D1402 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
 		682A6FC7E89EFC24B5E86A73E1785B60 /* libSocialDouYin.a */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = archive.ar; name = libSocialDouYin.a; path = UMShare/SocialLibraries/DouYin/libSocialDouYin.a; sourceTree = "<group>"; };
 		6AFB8FD4ADB2F0FE8AA4D240CDE55F38 /* DTShareKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = DTShareKit.framework; path = UMShare/SocialLibraries/DingDing/DTShareKit.framework; sourceTree = "<group>"; };
 		6E349FB00666E44098D56D1A72E98238 /* SnapKit.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = SnapKit.modulemap; sourceTree = "<group>"; };
@@ -305,7 +302,7 @@
 		8BA986BF3CC19D93D6891CBB392671A8 /* ConstraintLayoutSupportDSL.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintLayoutSupportDSL.swift; path = Sources/ConstraintLayoutSupportDSL.swift; sourceTree = "<group>"; };
 		8C1EAB468B40545FA4E2F353B50C9C8F /* ConstraintDSL.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintDSL.swift; path = Sources/ConstraintDSL.swift; sourceTree = "<group>"; };
 		8CE27FFB69BBB34064012472075B1851 /* VKApiGroups.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = VKApiGroups.h; path = UMShare/SocialLibraries/VKontakte/VKApiGroups.h; sourceTree = "<group>"; };
-		8EB2106A540EB040BB65A79668686CF6 /* CLThirdLogin.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = CLThirdLogin.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		8EB2106A540EB040BB65A79668686CF6 /* CLThirdLogin.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = CLThirdLogin.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		8FAC18203F7071669B5EA169BCFD7618 /* VKApiBase.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = VKApiBase.h; path = UMShare/SocialLibraries/VKontakte/VKApiBase.h; sourceTree = "<group>"; };
 		8FCA53837A1E86E5A4567F0D3D5A218E /* UMSocialInstagramHandler.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = UMSocialInstagramHandler.h; path = UMShare/SocialLibraries/Instagram/UMSocialInstagramHandler.h; sourceTree = "<group>"; };
 		8FE0F2B6298BB1D829F76F10EAB2B6BA /* VKApiObject.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = VKApiObject.h; path = UMShare/SocialLibraries/VKontakte/VKApiObject.h; sourceTree = "<group>"; };
@@ -324,7 +321,7 @@
 		984E941AC7B8EED2983AD20E0185F982 /* Pods-CLThirdLogin_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-CLThirdLogin_Example-Info.plist"; sourceTree = "<group>"; };
 		99DAC47C15D239D75FA54D8946BEDBE3 /* ConstraintMakerFinalizable.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintMakerFinalizable.swift; path = Sources/ConstraintMakerFinalizable.swift; sourceTree = "<group>"; };
 		9D1682690B075DECBD88FE07B613738A /* UMSocialWeChatWorkHandler.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = UMSocialWeChatWorkHandler.h; path = UMShare/SocialLibraries/WeChatWork/UMSocialWeChatWorkHandler.h; sourceTree = "<group>"; };
-		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		9E9A27A840CA353285FCF34B11FBBE04 /* ConstraintViewDSL.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintViewDSL.swift; path = Sources/ConstraintViewDSL.swift; sourceTree = "<group>"; };
 		A1A7222FA7F9E6FA7A8F2EFAE7BCF409 /* UMDevice.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UMDevice.framework; path = UMDevice_2.2.1/UMDevice.framework; sourceTree = "<group>"; };
 		A23860940B970BC9B8B4DE8B8A787248 /* ConstraintPriority.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintPriority.swift; path = Sources/ConstraintPriority.swift; sourceTree = "<group>"; };
@@ -357,7 +354,7 @@
 		BCDF3C833CA8AFC5A41B0D828ABE513B /* libSocialYiXin.a */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = archive.ar; name = libSocialYiXin.a; path = UMShare/SocialLibraries/YiXin/libSocialYiXin.a; sourceTree = "<group>"; };
 		BE0A51087C32A0C6B9F0D84869CD9F9F /* Typealiases.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Typealiases.swift; path = Sources/Typealiases.swift; sourceTree = "<group>"; };
 		BEB13FD67EEB73235FD2570F14562F70 /* VKCounters.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = VKCounters.h; path = UMShare/SocialLibraries/VKontakte/VKCounters.h; sourceTree = "<group>"; };
-		C088287EFDF3D32368C3DE4506C8D976 /* CLThirdLogin.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CLThirdLogin.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
+		C088287EFDF3D32368C3DE4506C8D976 /* CLThirdLogin-CLThirdLogin */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; name = "CLThirdLogin-CLThirdLogin"; path = CLThirdLogin.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
 		C3682ACBDC7B1C700A7C2F4A884E8BDB /* UMSocialDropBoxHandler.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = UMSocialDropBoxHandler.h; path = UMShare/SocialLibraries/DropBox/UMSocialDropBoxHandler.h; sourceTree = "<group>"; };
 		C40B098A147ADA56C2B7128B63792DFD /* libSocialPinterest.a */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = archive.ar; name = libSocialPinterest.a; path = UMShare/SocialLibraries/Pinterest/libSocialPinterest.a; sourceTree = "<group>"; };
 		C7E38BC77C7B5058822FCC7C576E1BA0 /* ConstraintDescription.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintDescription.swift; path = Sources/ConstraintDescription.swift; sourceTree = "<group>"; };
@@ -400,7 +397,7 @@
 		F271E486876C8AE78C6033270CFBAFE9 /* UMCommon.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UMCommon.framework; path = UMCommon_7.3.8/UMCommon.framework; sourceTree = "<group>"; };
 		F2D11538C35712A14C0FBF42E4386DEF /* VKUploadMessagesPhotoRequest.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = VKUploadMessagesPhotoRequest.h; path = UMShare/SocialLibraries/VKontakte/VKUploadMessagesPhotoRequest.h; sourceTree = "<group>"; };
 		F348FF4089D24948F91B71524ADE0F16 /* WXApiObject.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = WXApiObject.h; path = UMShare/SocialLibraries/WeChat/WechatSDK/WXApiObject.h; sourceTree = "<group>"; };
-		F37194B38F2570AEAC8D40CE555E144B /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		F37194B38F2570AEAC8D40CE555E144B /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
 		F42A55F6CF0F89E5EDC6DD44B20D2150 /* libSocialPocket.a */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = archive.ar; name = libSocialPocket.a; path = UMShare/SocialLibraries/Pocket/libSocialPocket.a; sourceTree = "<group>"; };
 		F5ABF2BADE568C8A2525280B914FA8CB /* UMSocialDouYinHandler.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = UMSocialDouYinHandler.h; path = UMShare/SocialLibraries/DouYin/UMSocialDouYinHandler.h; sourceTree = "<group>"; };
 		F829EFBD5424769A2011AF1C74A24ABE /* TwitterCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = TwitterCore.framework; path = UMShare/SocialLibraries/Twitter/TwitterCore.framework; sourceTree = "<group>"; };
@@ -526,7 +523,7 @@
 			isa = PBXGroup;
 			children = (
 				CE0B9FB3B5437CDC39670B8C622A5AA1 /* CLThirdLogin */,
-				C088287EFDF3D32368C3DE4506C8D976 /* CLThirdLogin.bundle */,
+				C088287EFDF3D32368C3DE4506C8D976 /* CLThirdLogin-CLThirdLogin */,
 				1E7079BBF94808BD7028CF201EA46180 /* Pods-CLThirdLogin_Example */,
 				2555A62F087A0A0DF8B235711C8AE3AC /* Pods-CLThirdLogin_Tests */,
 				979486118B3E90C08386079D57962701 /* SnapKit */,
@@ -540,6 +537,7 @@
 				E58FEDE532EBD51909D0A89884D29AB8 /* Frameworks */,
 				59AED20FF287978BC67FBF8CFC194EB1 /* Support Files */,
 			);
+			name = UMDevice;
 			path = UMDevice;
 			sourceTree = "<group>";
 		};
@@ -607,6 +605,7 @@
 				A57B002EA61EF239FDFFF01AAB1AD53E /* Frameworks */,
 				1E3E9A2D37731E6358BF83045AD97D34 /* Support Files */,
 			);
+			name = UMCommon;
 			path = UMCommon;
 			sourceTree = "<group>";
 		};
@@ -930,6 +929,7 @@
 				D0BBB49B5547E9F460880D1B5898ADDC /* UILayoutSupport+Extensions.swift */,
 				25F977AF7F010F2EA8E1D9A4310A24FA /* Support Files */,
 			);
+			name = SnapKit;
 			path = SnapKit;
 			sourceTree = "<group>";
 		};
@@ -1138,6 +1138,7 @@
 				37209B28DB0AF32D6BFD2F5556CD88A4 /* Support Files */,
 				8D3EC267793246945DB2D77FCCD5B23E /* UI */,
 			);
+			name = UMShare;
 			path = UMShare;
 			sourceTree = "<group>";
 		};
@@ -1493,7 +1494,7 @@
 			);
 			name = "CLThirdLogin-CLThirdLogin";
 			productName = CLThirdLogin;
-			productReference = C088287EFDF3D32368C3DE4506C8D976 /* CLThirdLogin.bundle */;
+			productReference = C088287EFDF3D32368C3DE4506C8D976 /* CLThirdLogin-CLThirdLogin */;
 			productType = "com.apple.product-type.bundle";
 		};
 		8F62DE049FEBC769312F75A9A858B444 /* Pods-CLThirdLogin_Example */ = {
@@ -1548,11 +1549,6 @@
 			attributes = {
 				LastSwiftUpdateCheck = 1300;
 				LastUpgradeCheck = 1300;
-				TargetAttributes = {
-					7B59AF6D64C59295609DA1CC36D0CF8B = {
-						DevelopmentTeam = B6Q5RKSB5N;
-					};
-				};
 			};
 			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
 			compatibilityVersion = "Xcode 3.2";
@@ -1918,7 +1914,8 @@
 				MTL_FAST_MATH = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRIP_INSTALLED_PRODUCT = NO;
-				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
 				SWIFT_VERSION = 5.0;
 				SYMROOT = "${SRCROOT}/../build";
 			};
@@ -2009,7 +2006,6 @@
 			baseConfigurationReference = 0518D2806C4491F7B982864B5A8CD75D /* CLThirdLogin.debug.xcconfig */;
 			buildSettings = {
 				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/CLThirdLogin";
-				DEVELOPMENT_TEAM = B6Q5RKSB5N;
 				IBSC_MODULE = CLThirdLogin;
 				INFOPLIST_FILE = "Target Support Files/CLThirdLogin/ResourceBundle-CLThirdLogin-CLThirdLogin-Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
@@ -2125,7 +2121,6 @@
 			baseConfigurationReference = 930D7A5AE88631FAA9453CDFE6135CC5 /* CLThirdLogin.release.xcconfig */;
 			buildSettings = {
 				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/CLThirdLogin";
-				DEVELOPMENT_TEAM = B6Q5RKSB5N;
 				IBSC_MODULE = CLThirdLogin;
 				INFOPLIST_FILE = "Target Support Files/CLThirdLogin/ResourceBundle-CLThirdLogin-CLThirdLogin-Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 11.0;

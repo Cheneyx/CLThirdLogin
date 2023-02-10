@@ -83,4 +83,12 @@ public struct AppleUserInfo {
     var givenName: String?
     var identityToken: Data?
     var email: String?
+    
+    init(user: String? = nil, familyName: String? = nil, givenName: String? = nil, identityToken: Data? = nil, email: String? = nil) {
+        self.user = user
+        self.familyName = familyName
+        self.givenName = givenName
+        self.identityToken = identityToken
+        self.email = email
+    }
 }
